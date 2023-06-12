@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    color: darkslategrey;
+    height: 85px;
+    padding: 20px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05)
+    
+}
+
+header .logo {
+    /*border: 2px solid red;*/
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+header .logo-icon {
+    font-size: 2.5rem;
+    color: orange;
+    margin-right: 10px;
+}
+
+.logo p {
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.logo span {
+    font-weight: bold;
+    color: orange;
+}
+
+
+header .search {
+    /*border: 2px solid green;*/
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+.search input {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(217, 214, 214);
+    color:black;
+    border-radius: 30px;
+    height: max-content;
+    width: max-content;
+    padding: 12px 20px;
+    font-size: 1rem;
+    width: 400px;
+
+}
+
+.search input:hover {
+    background-color: white;
+    border: 2px solid lightskyblue;
+}
+
+.search input:active {
+    background-color: white;
+    border: 2px solid lightskyblue;
+    padding: 10px 
+    
+}
+
