@@ -53,7 +53,7 @@ header .search {
     width: max-content;
     padding: 12px 20px;
     font-size: 1rem;
-    width: 400px;
+    max-width: 400px;
 
 }
 
@@ -67,5 +67,11 @@ header .search {
     border: 2px solid lightskyblue;
     padding: 10px 
     
+}
+
+@media only screen and ( max-width: 600px ) {
+    .search input {
+        max-width: 200px;
+    }
 }
 

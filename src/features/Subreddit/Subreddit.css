@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-top: 48px;
-    margin-left: 100px;
+    margin-top: 49px;
     background-color: gainsboro;
     border-radius: 7px;
     width: 400px;
@@ -13,7 +12,7 @@
     display: flex;
     align-items: center;
     font-size: 2rem;
-    margin: 0 20px 20px 20px;
+    margin: 4px 20px 15px 20px;
     color: rgb(85, 84, 84);
 }
 
@@ -64,7 +63,44 @@
     border-radius: 50%;
     margin-right: 20px;
     margin-left: 20px;
-   
+}
+
+@media only screen and ( max-width: 600px ) {
+    .subreddit-container {
+        display: none
+    }
+    .subreddit-title {
+        display: none;
+    }
+    .subreddits-list {
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 680px ) {
+    .subreddit-container {
+        dispay: none;
+    }
+}
+
+@media only screen and (max-width: 780px ) {
+    .subreddit-container {
+        flex-basis: 20%;
+        max-width: 250px;
+        
+    }
+    .subreddit-list {
+        
+    }
+    .subreddit-items {
+        
+    }
+    .subreddit-items:hover {
+        
+    }
+    .current-subreddit {
+        
+    }
 }
 
 

@@ -22,7 +22,6 @@
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
-    margin-left: 50px;
     max-width: 800px;
   }
 
@@ -174,6 +173,39 @@
   background: none;
   padding-left: 5px;
   margin-bottom: 10px;
+}
+
+@media only screen and ( max-width: 600px ) {
+  .article-container {
+    margin-left: 0px;
+    max-width: 580px;
+  }
+  .reddit-post {
+    width: 300px;
+    
+  }
+  .source-align-left {
+    flex-wrap: wrap;
+  }
+  .subreddit-link {
+    flex-basis: 70%;
+  }
+  .posted-by {
+    margin-left: 4px;
+  }
+  .timestamp {
+    flex-basis: 100%;
+    margin-left: 2px
+  }  
+}
+
+@media only screen and (max-width: 768px) {
+  .article-container {
+    margin-left: 0px;
+  }
+  .reddit-post {
+    
+  }
 }
 
 

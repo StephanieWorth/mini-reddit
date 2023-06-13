@@ -1,9 +1,42 @@
 .current-subreddit-title {
     font-size: 2rem;
-    margin-left: 50px;
     margin-top: 48px;
     margin-bottom: 20px;
     color: rgb(85, 84, 84);
     
 }
+
+.reddit-posts-container {
+    margin-left: 80px;
+    
+}
+
+@media only screen and ( max-width: 600px ) {
+    .reddit-posts-container {
+        margin-left: 25px;
+        flex-basis: 100%;
+        
+
+    }
+    .current-subreddit-title {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and ( min-width: 600px ) {
+    .reddit-posts-container {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and ( min-width: 780px) {
+    .reddit-posts-container {
+        flex-basis: 80%;
+    }
+    .current-subreddit-title {
+        
+    }
+}
+
+
 
